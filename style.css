@@ -1,4 +1,4 @@
- /* .container {
+/* .container {
     background-color: #00abff;
     width: 100vw;
     height: 100vh;
@@ -10,4 +10,28 @@
     justify-content: center;
     height: 50vh;
 
-} 
+}
+
+.dropdown {
+
+    border: 2px solid green;
+    padding-top: -5px;
+    font-size: 15px;
+    background-color: whitesmoke;
+    font-weight: 52px;
+    color: black;
+    border: none;
+    display: block;
+
+}
+
+.dropdown a {
+    color: black;
+    padding: 9px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: rgb(13 110 253 / 25%);
+}
